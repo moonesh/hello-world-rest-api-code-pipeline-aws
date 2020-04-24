@@ -7,7 +7,7 @@
 	<groupId>com.in28minutes.rest.webservices</groupId>
 	<artifactId>08-aws-hello-world-rest-api-pipeline</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 	<name>aws-hello-world-rest-api-pipeline</name>
 
@@ -70,7 +70,7 @@
 		</dependency>
 	</dependencies>
 	
-	<build>
+	<!-- <build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -87,9 +87,9 @@
                 </configuration>
             </plugin>
 		</plugins>
-	</build>
+	</build>-->
 
-	<!-- <build>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -116,7 +116,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build> -->
+	</build>
 
 	<repositories>
 		<repository>
